@@ -195,7 +195,7 @@ body{
 
 @media all and (max-width: 767px){
 	.container{
-		width: 300px;
+		width: 400px;
 	}
 
 	.weather-details i{
