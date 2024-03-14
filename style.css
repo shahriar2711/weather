@@ -192,3 +192,23 @@ body{
 	font-weight: 200;
 	margin-top: 12px;
 }
+
+@media all and (max-width: 767px){
+	.container{
+		width: 300px;
+	}
+
+	.weather-details i{
+		font-size: 30px;
+	}
+
+	.weather-details .humidity{
+		padding-left: 10px;
+		justify-content: flex-start;
+	}
+
+	.weather-details .wind{
+		padding-right: 10px;
+		justify-content: flex-end;
+	}
+}
